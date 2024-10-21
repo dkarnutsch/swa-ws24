@@ -5,9 +5,9 @@ az login
 ```
 
 ```
-terraform init
-terraform plan -out plan.cache
-terraform apply plan.cache
+tofu init
+tofu plan -out plan.cache
+tofu apply plan.cache
 ```
 
 ```
@@ -17,5 +17,5 @@ kubectl get node
 ```
 
 ```
-terraform destroy
+tofu destroy
 ```
